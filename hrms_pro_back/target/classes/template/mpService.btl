@@ -1,0 +1,9 @@
+package ${entity.servicePackage};
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import ${entity.entityPackage}.${entity.className};
+
+
+public interface I${entity.className}Service extends IService<${entity.className}> {
+
+}
